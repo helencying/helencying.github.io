@@ -1,13 +1,8 @@
-function start() {
+const header = document.querySelector(".site-header");
 
-	const logo = document.querySelectorAll("#logo path")
-	console.log(logo)
+const updateHeader = () => {
+	header.classList.toggle("is-scrolled", window.scrollY > 10);
+};
 
-	console.log(logo[0].getTotalLength());
-
-	for (let i = 0; i < logo.length; i++) {
-		console.log('Letter', i, 'is', logo[i].getTotalLength());
-
-	}
-}
-
+updateHeader();
+window.addEventListener("scroll", updateHeader, { passive: true });

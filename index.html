@@ -1,44 +1,118 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Helen Ellen's personal website for essays, notes, and photography.">
 	<title>Helen Ellen</title>
-	<!-- GOOGLE FONTS API --> 
-	<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
-	<link href="style.css" rel="stylesheet">
-	<script src="app.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script src="app.js" defer></script>
 </head>
-
-
 <body>
-<svg id="logo"
-	width="388" 
-	height="49" 
-	viewBox="0 0 388 49" 
-	fill="none" 
-	xmlns="http://www.w3.org/2000/svg">
+	<header class="site-header">
+		<a class="wordmark" href="#top">Helen Ellen</a>
+		<nav aria-label="Primary navigation">
+			<a href="#writing">Writing</a>
+			<a href="#photos">Photos</a>
+			<a href="#about">About</a>
+		</nav>
+	</header>
 
-	<path d="M35.8503 47V24.088H4.42625V47H1.35425V1.23999H4.42625V21.336H35.8503V1.23999H38.9223V47H35.8503Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)"/>
-	<path d="M55.0237 47V5.46399H74.4158V8.02399H57.9677V23.128H72.8158V25.624H57.9677V44.312H75.0558V47H55.0237Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)"/>
-	<path d="M86.8362 47V5.46399H89.7802V44.312H108.852V47H86.8362Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)"/>
-	<path d="M117.586 47V5.46399H136.978V8.02399H120.53V23.128H135.378V25.624H120.53V44.312H137.618V47H117.586Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)"/>
-	<path d="M149.399 47V5.20799H150.807L178.071 36.568C179.052 37.6773 179.948 38.7867 180.759 39.896C181.612 40.9627 182.06 41.5173 182.103 41.56C182.017 40.536 181.975 38.5307 181.975 35.544V5.46399H184.919V47.256H183.511L155.735 15.384L152.215 11.096C152.3 11.9493 152.343 13.9547 152.343 17.112V47H149.399Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)"/>
-	<path d="M224.104 47V1.23999H245.352V3.92799H227.176V20.76H243.624V23.384H227.176V44.312H246.056V47H224.104Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)"/>
-	<path d="M257.586 47V5.46399H260.53V44.312H279.602V47H257.586Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)"/>
-	<path d="M288.336 47V5.46399H291.28V44.312H310.352V47H288.336Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)"/>
-	<path d="M319.086 47V5.46399H338.478V8.02399H322.03V23.128H336.878V25.624H322.03V44.312H339.118V47H319.086Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)"/>
-	<path d="M350.899 47V5.20799H352.307L379.571 36.568C380.552 37.6773 381.448 38.7867 382.259 39.896C383.112 40.9627 383.56 41.5173 383.603 41.56C383.517 40.536 383.475 38.5307 383.475 35.544V5.46399H386.419V47.256H385.011L357.235 15.384L353.715 11.096C353.8 11.9493 353.843 13.9547 353.843 17.112V47H350.899Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)"/>
-</svg>
+	<main id="top">
+		<section class="hero" aria-labelledby="page-title">
+			<div class="hero-copy">
+				<p class="kicker">Personal notes, essays, and photographs</p>
+				<h1 id="page-title">A colorful home for seeing, saving, and saying things.</h1>
+				<p>Use this space as a living notebook: longer writing, photo sets, quick observations, and the pieces that feel worth returning to.</p>
+				<div class="hero-links">
+					<a class="button filled" href="#writing">Read the blog</a>
+					<a class="button outlined" href="#photos">Browse photos</a>
+				</div>
+			</div>
 
+			<div class="hero-art" aria-label="Abstract collage representing writing and photography">
+				<img src="assets/color-study-hero.png" alt="A colorful abstract collage of paper textures, photo frames, and creative shapes.">
+			</div>
+		</section>
 
+		<section class="color-strip" aria-label="Site color palette">
+			<span class="plum"></span>
+			<span class="tomato"></span>
+			<span class="peach"></span>
+			<span class="teal"></span>
+			<span class="butter"></span>
+		</section>
 
+		<section class="section writing-section" id="writing" aria-labelledby="writing-title">
+			<div class="section-title">
+				<p class="kicker">Blog</p>
+				<h2 id="writing-title">Writing shelf</h2>
+			</div>
 
+			<div class="writing-list">
+				<article class="writing-card feature">
+					<p class="label">Featured essay</p>
+					<h3>Begin with a first note</h3>
+					<p>A flexible spot for a personal essay, a trip reflection, a project update, or anything you want visitors to read first.</p>
+					<a href="#">Open draft</a>
+				</article>
+				<article class="writing-card">
+					<p class="label">Journal</p>
+					<h3>Small observations</h3>
+					<p>Short entries, loose thoughts, lists, and links can live here without needing to become full essays.</p>
+					<a href="#">Open draft</a>
+				</article>
+				<article class="writing-card">
+					<p class="label">Notes</p>
+					<h3>Things to remember</h3>
+					<p>Keep a running record of ideas, places, books, recipes, images, and moments worth saving.</p>
+					<a href="#">Open draft</a>
+				</article>
+			</div>
+		</section>
 
+		<section class="section photos-section" id="photos" aria-labelledby="photos-title">
+			<div class="section-title">
+				<p class="kicker">Photography</p>
+				<h2 id="photos-title">Photo collections</h2>
+			</div>
 
+			<div class="photo-board">
+				<article class="photo-tile image-tile">
+					<img src="assets/color-study-hero.png" alt="Colorful abstract collage used as a placeholder photo collection cover.">
+					<div>
+						<p>01</p>
+						<h3>Color study</h3>
+					</div>
+				</article>
+				<article class="photo-tile tile-teal">
+					<p>02</p>
+					<h3>Neighborhood walks</h3>
+				</article>
+				<article class="photo-tile tile-peach">
+					<p>03</p>
+					<h3>Quiet details</h3>
+				</article>
+				<article class="photo-tile tile-plum">
+					<p>04</p>
+					<h3>Travel notes</h3>
+				</article>
+			</div>
+		</section>
+
+		<section class="section about-section" id="about" aria-labelledby="about-title">
+			<div>
+				<p class="kicker">About</p>
+				<h2 id="about-title">A personal website with room to change.</h2>
+			</div>
+			<div class="about-copy">
+				<p>This is a from-scratch starting point: warm colors, clear sections, and placeholders that can become real writing and real photographs over time.</p>
+				<a class="button filled" href="mailto:hello@example.com">Email me</a>
+			</div>
+		</section>
+	</main>
 </body>
-
-<script>
-	$(document).ready(start())
-</script>
-
 </html>

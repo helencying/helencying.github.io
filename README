@@ -1,2 +1,30 @@
-Hello!
+# Site notes
 
+This site uses markdown files for writing.
+
+## Published pages
+
+Put pages you want to publish in `pages/`.
+
+To show a published page on the homepage, add a link in `index.html`:
+
+```html
+<a href="page.html?file=pages/my-page.md">
+	<span>My page</span>
+	<time datetime="2026-07-05">July 5, 2026</time>
+</a>
+```
+
+## Draft pages
+
+Put drafts in `_drafts/`.
+
+Drafts are committed to GitHub, but `_config.yml` excludes `_drafts/` from GitHub Pages deploys.
+
+Preview a draft locally with a URL like:
+
+```text
+http://localhost:8002/page.html?file=_drafts/example-draft.md
+```
+
+When a draft is ready, move it from `_drafts/` to `pages/`, then add it to the homepage list.

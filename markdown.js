@@ -73,7 +73,7 @@ const renderMarkdown = (markdown) => {
 	return html.join("");
 };
 
-const isAllowedPage = (path) => /^pages\/[a-z0-9-]+\.md$/i.test(path);
+const isAllowedPage = (path) => /^(pages|_drafts)\/[a-z0-9-]+\.md$/i.test(path);
 
 if (!isAllowedPage(file)) {
 	container.innerHTML = "<h1>Page not found</h1><p>That page path is not allowed.</p>";
@@ -93,6 +93,6 @@ if (!isAllowedPage(file)) {
 			}
 		})
 		.catch(() => {
-			container.innerHTML = "<h1>Page not found</h1><p>Check that the markdown file exists in the pages folder.</p>";
+			container.innerHTML = "<h1>Page not found</h1><p>Check that the markdown file exists in pages or _drafts.</p>";
 		});
 }

@@ -1,6 +1,6 @@
 # Yoga class
 
-Sunday July 5th 2026
+July 5, 2026
 
 Today, I went to acac Fitness & Wellness in West Broad Village to take a yoga class with Zi and Steven. We waited a bit at the front desk to 
 get checked in by the manager since they were stuck on the phone for quite some time. We were a little worried we wouldn't make it to the 

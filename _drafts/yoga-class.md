@@ -24,6 +24,6 @@ to a workout class with other people definitely increases motivation and enjoyme
 Reflections after the yoga class
 - I wonder if I should try to get a yoga certification and become a yoga instructor? Or at least have the ability to teach yoga. I've been doing yoga since
 2020 and it is really enjoyable and fun. Getting certified would definitely give me another avenue of income if I wanted to. I also thought the yoga
-instructor today was very cool and she was teaching another class immediately after the yoga class.
+instructor today was very cool and she was teaching another class immediately after the yoga class. I did some research on becoming yoga certified afterwards but it sounds like it isn't exactly a lucrative financial path. Nonetheless, I do think being able to teach yoga may be fun perhaps? Or maybe yoga and doing yoga with other people is something I would enjoy more. This is something I can look into when I am older. https://www.reddit.com/r/yoga/comments/10by7hl/considering_becoming_a_yoga_teacher_need_input/
 - Signing up for a gym membership is something I want to try out eventually. Regardless of the money, I think it is a positive investment
 in my physical health and exercise in general is what I want to continue doing everyday. 

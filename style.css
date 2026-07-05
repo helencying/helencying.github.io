@@ -1,9 +1,11 @@
 :root {
-	--paper: #f8f2e8;
-	--ink: #202124;
-	--muted: #6f6a62;
-	--accent: #9b4d3d;
-	--line: rgba(32, 33, 36, 0.16);
+	--paper: #f4d2d7;
+	--ink: #4f494a;
+	--text: #6c6061;
+	--muted: #8a7d7e;
+	--accent: #c0e8f9;
+	--accent-strong: #7bbbd6;
+	--line: rgba(108, 96, 97, 0.2);
 }
 
 * {
@@ -17,10 +19,8 @@ html {
 body {
 	min-height: 100vh;
 	margin: 0;
-	background:
-		linear-gradient(120deg, rgba(155, 77, 61, 0.08), transparent 42%),
-		var(--paper);
-	color: var(--ink);
+	background: var(--paper);
+	color: var(--text);
 	font-family: "Inter", Arial, sans-serif;
 	line-height: 1.6;
 }
@@ -43,7 +43,7 @@ a {
 
 .eyebrow {
 	margin: 0 0 18px;
-	color: var(--accent);
+	color: var(--ink);
 	font-size: 0.78rem;
 	font-weight: 600;
 	letter-spacing: 0.16em;
@@ -52,6 +52,7 @@ a {
 
 h1 {
 	margin: 0;
+	color: var(--ink);
 	font-family: "Libre Baskerville", Georgia, serif;
 	font-size: clamp(4.6rem, 15vw, 12rem);
 	font-weight: 400;
@@ -83,15 +84,23 @@ h1 {
 	gap: 18px;
 	padding: 16px 0;
 	border-bottom: 1px solid var(--line);
-	color: var(--ink);
+	color: var(--text);
 }
 
 .page-list a:hover {
-	color: var(--accent);
+	color: var(--ink);
 }
 
 .page-list span {
 	font-weight: 600;
+	text-decoration: underline;
+	text-decoration-color: transparent;
+	text-underline-offset: 0.22em;
+	transition: text-decoration-color 160ms ease;
+}
+
+.page-list a:hover span {
+	text-decoration-color: currentColor;
 }
 
 .page-list time {
@@ -113,7 +122,7 @@ h1 {
 }
 
 .page-header a:hover {
-	color: var(--accent);
+	color: var(--ink);
 }
 
 .page {
@@ -159,14 +168,14 @@ h1 {
 }
 
 .note a {
-	color: var(--accent);
+	color: var(--accent-strong);
 	text-decoration: underline;
 	text-underline-offset: 0.18em;
 }
 
 .note code {
 	padding: 0.12em 0.28em;
-	background: rgba(32, 33, 36, 0.08);
+	background: rgba(192, 232, 249, 0.42);
 	border-radius: 4px;
 	font-size: 0.92em;
 }
